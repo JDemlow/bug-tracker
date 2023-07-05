@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+.container {
+  @apply max-w-screen-md mx-auto p-8;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+h2 {
+  @apply text-lg font-semibold mb-2;
+}
+
+h3 {
+  @apply text-base font-semibold mb-2;
+}
+
+p {
+  @apply text-base mb-2;
+}
+
+button {
+  @apply px-4 py-2 rounded bg-blue-500 text-white;
+}
+
+input[type="text"],
+textarea {
+  @apply py-2 px-4 border rounded w-full mb-2;
+}
+
+.ticket-list {
+  @apply list-none p-0;
+}
+
+.ticket-list-item {
+  @apply p-4 bg-gray-100 rounded mb-2 cursor-pointer;
+}
+
+.ticket-details {
+  @apply border rounded p-4 bg-gray-100 mb-2;
+}
+
+.clear-button {
+  @apply mt-2;
+}
+
+.ticket-form {
+  @apply border rounded p-4 bg-gray-100 mb-2;
+}
